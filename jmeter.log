@@ -1,0 +1,159 @@
+2023-11-27 21:45:36,715 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2023-11-27 21:45:36,726 INFO o.a.j.JMeter: Loading user properties from: C:\Users\guanj\OneDrive - University of Waterloo\750 temp\apache-jmeter-5.6.2\bin\user.properties
+2023-11-27 21:45:36,726 INFO o.a.j.JMeter: Loading system properties from: C:\Users\guanj\OneDrive - University of Waterloo\750 temp\apache-jmeter-5.6.2\bin\system.properties
+2023-11-27 21:45:36,726 INFO o.a.j.JMeter: Setting JMeter property: thread.count=50
+2023-11-27 21:45:36,731 INFO o.a.j.JMeter: Copyright (c) 1998-2023 The Apache Software Foundation
+2023-11-27 21:45:36,731 INFO o.a.j.JMeter: Version 5.6.2
+2023-11-27 21:45:36,731 INFO o.a.j.JMeter: java.version=19.0.1
+2023-11-27 21:45:36,731 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2023-11-27 21:45:36,731 INFO o.a.j.JMeter: os.name=Windows 11
+2023-11-27 21:45:36,731 INFO o.a.j.JMeter: os.arch=amd64
+2023-11-27 21:45:36,731 INFO o.a.j.JMeter: os.version=10.0
+2023-11-27 21:45:36,731 INFO o.a.j.JMeter: file.encoding=UTF-8
+2023-11-27 21:45:36,731 INFO o.a.j.JMeter: java.awt.headless=true
+2023-11-27 21:45:36,731 INFO o.a.j.JMeter: Max memory     =1073741824
+2023-11-27 21:45:36,731 INFO o.a.j.JMeter: Available Processors =20
+2023-11-27 21:45:36,737 INFO o.a.j.JMeter: Default Locale=English (EN)
+2023-11-27 21:45:36,737 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2023-11-27 21:45:36,737 INFO o.a.j.JMeter: JMeterHome=C:\Users\guanj\OneDrive - University of Waterloo\750 temp\apache-jmeter-5.6.2
+2023-11-27 21:45:36,738 INFO o.a.j.JMeter: user.dir  =C:\Users\guanj\OneDrive - University of Waterloo\ECE750
+2023-11-27 21:45:36,738 INFO o.a.j.JMeter: PWD       =C:\Users\guanj\OneDrive - University of Waterloo\ECE750
+2023-11-27 21:45:36,739 INFO o.a.j.JMeter: IP: 10.0.0.32 Name: TomWang FullName: host.docker.internal
+2023-11-27 21:45:36,748 INFO o.a.j.s.FileServer: Default base='C:\Users\guanj\OneDrive - University of Waterloo\ECE750'
+2023-11-27 21:45:36,749 INFO o.a.j.s.FileServer: Set new base='C:\Users\guanj\OneDrive - University of Waterloo\ECE750'
+2023-11-27 21:45:36,917 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2023-11-27 21:45:36,935 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2023-11-27 21:45:36,937 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2023-11-27 21:45:36,940 INFO o.a.j.s.SaveService: Loading file: test.jmx
+2023-11-27 21:45:36,973 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-11-27 21:45:36,973 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-11-27 21:45:36,973 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-11-27 21:45:36,974 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2023-11-27 21:45:36,974 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2023-11-27 21:45:36,974 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2023-11-27 21:45:36,996 INFO o.a.j.JMeter: Creating summariser <summary>
+2023-11-27 21:45:37,004 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2023-11-27 21:45:37,004 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-11-27 21:45:37,004 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2023-11-27 21:45:37,007 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2023-11-27 21:45:37,007 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2023-11-27 21:45:37,052 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\guanj\OneDrive - University of Waterloo\750 temp\apache-jmeter-5.6.2\lib\ext\acmeair-jmeter-2.0.0-SNAPSHOT.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-11-27 21:45:37,060 INFO o.a.j.r.ClassFinder: Will scan jar C:\Users\guanj\OneDrive - University of Waterloo\750 temp\apache-jmeter-5.6.2\lib\ext\json-simple-1.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2023-11-27 21:45:37,067 INFO o.a.j.JMeter: Running test (1701139537067)
+2023-11-27 21:45:37,080 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2023-11-27 21:45:37,080 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group Thread Group.
+2023-11-27 21:45:37,080 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2023-11-27 21:45:37,081 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=100 ramp-up=0 delayedStart=false
+2023-11-27 21:45:37,088 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2023-11-27 21:45:37,088 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2023-11-27 21:45:37,088 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2023-11-27 21:45:37,088 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2023-11-27 21:45:37,089 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2023-11-27 21:45:37,089 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2023-11-27 21:45:37,089 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2023-11-27 21:45:37,089 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2023-11-27 21:45:37,089 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2023-11-27 21:45:37,089 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2023-11-27 21:45:37,089 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2023-11-27 21:45:37,089 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2023-11-27 21:45:37,090 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2023-11-27 21:45:37,090 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2023-11-27 21:45:37,090 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2023-11-27 21:45:37,090 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2023-11-27 21:45:37,092 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2023-11-27 21:45:37,092 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2023-11-27 21:45:37,092 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2023-11-27 21:45:37,093 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2023-11-27 21:45:37,093 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-21
+2023-11-27 21:45:37,094 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-22
+2023-11-27 21:45:37,094 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-23
+2023-11-27 21:45:37,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-24
+2023-11-27 21:45:37,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-25
+2023-11-27 21:45:37,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-26
+2023-11-27 21:45:37,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-27
+2023-11-27 21:45:37,096 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-28
+2023-11-27 21:45:37,097 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-29
+2023-11-27 21:45:37,097 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-30
+2023-11-27 21:45:37,097 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-31
+2023-11-27 21:45:37,098 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-32
+2023-11-27 21:45:37,098 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-33
+2023-11-27 21:45:37,099 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-34
+2023-11-27 21:45:37,099 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-35
+2023-11-27 21:45:37,099 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-36
+2023-11-27 21:45:37,101 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-37
+2023-11-27 21:45:37,101 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-38
+2023-11-27 21:45:37,102 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-39
+2023-11-27 21:45:37,103 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-40
+2023-11-27 21:45:37,103 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-41
+2023-11-27 21:45:37,103 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-42
+2023-11-27 21:45:37,104 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-43
+2023-11-27 21:45:37,104 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-44
+2023-11-27 21:45:37,104 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-45
+2023-11-27 21:45:37,105 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-46
+2023-11-27 21:45:37,105 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-47
+2023-11-27 21:45:37,106 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-48
+2023-11-27 21:45:37,106 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-49
+2023-11-27 21:45:37,106 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-50
+2023-11-27 21:45:37,107 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-51
+2023-11-27 21:45:37,107 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-52
+2023-11-27 21:45:37,108 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-53
+2023-11-27 21:45:37,109 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-54
+2023-11-27 21:45:37,109 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-55
+2023-11-27 21:45:37,110 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-56
+2023-11-27 21:45:37,110 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-57
+2023-11-27 21:45:37,110 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-58
+2023-11-27 21:45:37,111 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-59
+2023-11-27 21:45:37,111 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-60
+2023-11-27 21:45:37,111 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-61
+2023-11-27 21:45:37,112 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-62
+2023-11-27 21:45:37,112 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-63
+2023-11-27 21:45:37,112 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-64
+2023-11-27 21:45:37,113 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-65
+2023-11-27 21:45:37,113 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-66
+2023-11-27 21:45:37,113 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-67
+2023-11-27 21:45:37,114 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-68
+2023-11-27 21:45:37,115 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-69
+2023-11-27 21:45:37,115 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-70
+2023-11-27 21:45:37,116 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-71
+2023-11-27 21:45:37,116 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-72
+2023-11-27 21:45:37,116 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-73
+2023-11-27 21:45:37,116 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-74
+2023-11-27 21:45:37,117 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-75
+2023-11-27 21:45:37,117 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-76
+2023-11-27 21:45:37,117 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-77
+2023-11-27 21:45:37,118 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-78
+2023-11-27 21:45:37,118 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = TomWang
+2023-11-27 21:45:37,118 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-79
+2023-11-27 21:45:37,119 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-80
+2023-11-27 21:45:37,119 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-81
+2023-11-27 21:45:37,119 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-82
+2023-11-27 21:45:37,119 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-83
+2023-11-27 21:45:37,120 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-84
+2023-11-27 21:45:37,121 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-85
+2023-11-27 21:45:37,122 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-86
+2023-11-27 21:45:37,122 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-87
+2023-11-27 21:45:37,122 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-88
+2023-11-27 21:45:37,123 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-89
+2023-11-27 21:45:37,123 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-90
+2023-11-27 21:45:37,123 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-91
+2023-11-27 21:45:37,124 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-92
+2023-11-27 21:45:37,125 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-93
+2023-11-27 21:45:37,125 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-94
+2023-11-27 21:45:37,125 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-95
+2023-11-27 21:45:37,125 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-96
+2023-11-27 21:45:37,126 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-97
+2023-11-27 21:45:37,126 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-98
+2023-11-27 21:45:37,127 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-99
+2023-11-27 21:45:37,127 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2023-11-27 21:45:37,128 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2023-11-27 21:45:37,128 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-100
+2023-11-27 21:45:37,143 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2023-11-27 21:45:37,149 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2023-11-27 21:45:37,149 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2023-11-27 21:45:37,149 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2023-11-27 21:45:37,149 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2023-11-27 21:46:00,265 INFO o.a.j.r.Summariser: summary +      1 in 00:00:23 =    0.0/s Avg: 22983 Min: 22983 Max: 22983 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2023-11-27 21:46:30,002 INFO o.a.j.r.Summariser: summary +   4996 in 00:00:30 =  168.0/s Avg:  1032 Min:    16 Max: 24570 Err:   796 (15.93%) Active: 100 Started: 100 Finished: 0
+2023-11-27 21:46:30,002 INFO o.a.j.r.Summariser: summary =   4997 in 00:00:53 =   94.4/s Avg:  1036 Min:    16 Max: 24570 Err:   796 (15.93%)
+2023-11-27 21:46:36,491 INFO o.a.j.r.ResultCollector: Shutdown hook started
+2023-11-27 21:46:36,491 INFO o.a.j.r.ResultCollector: Shutdown hook ended
