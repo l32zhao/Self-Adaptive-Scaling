@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+<body>
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+          <div class="col-6">
+                <div class="card-body">
+                    <h5 class="card-title text-center">Sign In</h5>
+                        <form class="form-signin" action="/login" method="POST">
+                            {% if message %}
+                            <p align="center" style="color:green"> {{message}} </p>
+                            {% endif %}
+                            {% if error %}
+                            <p align="center" style="color:red"> {{error}} </p>
+                            {% endif %}
+                            <br>
+                            <div class="form-label-group">
+                                <label for="inputEmail">Username</label>
+                                <input type="username" id="inputEmail" name="username" class="form-control" placeholder="Username" required autofocus>                                
+                            </div>
+                            <div class="form-label-group">
+                                <label for="inputPassword">Password</label>
+                                <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required>
+                            </div>
+                            <br><br>
+                            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+                            <p> Don't have an account yet?</p>
+                            <a href="{{url_for('register')}}" class="btn btn-lg btn-primary btn-block">Create an Account</a>
+
+                        </form>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</body>
+<script>
+
+     window.open("{{new_page}}","_self");
+
+</script>
+</html>

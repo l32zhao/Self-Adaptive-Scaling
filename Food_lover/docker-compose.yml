@@ -1,0 +1,29 @@
+services:
+  app:
+    container_name: fdlover
+    build: ./app
+    ports:
+      - "5000:5000"
+    links:
+      - db
+      - mongo
+    depends_on:
+      - db
+      - mongo
+
+  db:
+    build: ./db/mysql
+    ports:
+      - "32000:3306"
+    container_name: mysql
+
+  mongo:
+    build: ./db/mongo
+    container_name: mongo
+    ports:
+      - 27017:27017
+
+
+
+
+

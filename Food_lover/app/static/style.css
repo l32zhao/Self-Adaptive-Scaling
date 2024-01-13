@@ -1,0 +1,48 @@
+body {
+	color: #333;
+	font: normal 12px/150% Arial, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 20px auto 0 auto;
+
+}
+
+/* Container 1 */
+.container-1, .container-2 {
+	display: flex;
+	position: center;
+}
+
+.container-1 .box-1, .box-2, .box-3 {
+	
+	border: solid thin #ccc;
+	text-align: center;
+	color: rgb(12, 12, 12);
+	padding: 1%;
+	margin: 10px;
+	width: 50%;
+	height: auto;
+}
+
+.container-1 img {
+	max-width: 400px;
+  	max-height: 400px; 
+  	object-fit: cover;
+}
+
+
+
+.container-2 .box-1, .box-2, .box-3 {
+
+	border: solid thin #ccc;
+	text-align: center;
+	color: rgb(26, 25, 25);
+	padding: 1%;
+	margin: 10px;
+	width: 50%;
+	height: 500px
+}
+.container-2 img {
+	max-width: 400px;
+	max-height: 400px;
+	object-fit: cover;
+}
