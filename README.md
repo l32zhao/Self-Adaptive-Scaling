@@ -22,7 +22,7 @@ This project presents an intelligent auto-scaling system designed for microservi
 
 - **OpenShift CLI for Execution**: Uses OpenShift Command Line Interface for dynamic scaling of pods and resource adjustment.
 
-<img src="/Users/zlc/Code/Self-Adaptive-Scaling/Pictures/LSTM.png" alt="LSTM" style="zoom:72%;" />
+<img src="./Pictures/LSTM.png" alt="LSTM" style="zoom:72%;" />
 
 
 
@@ -32,7 +32,7 @@ This project presents an intelligent auto-scaling system designed for microservi
 
 The system architecture is divided into three main components:
 
-![archNew](/Users/zlc/Code/Self-Adaptive-Scaling/Pictures/archNew.png)
+![archNew](./Pictures/archNew.png)
 
 
 
@@ -43,7 +43,7 @@ The system architecture is divided into three main components:
 - **Resource Management**: Employs Docker containers for encapsulating services, orchestrated by OpenShift for real-time adaptations.
 - **Performance Monitoring**: Uses IBM Cloud monitoring tools, including Sysdig, for tracking performance metrics.
 
-![Metrics](/Users/zlc/Code/Self-Adaptive-Scaling/Pictures/Metrics.png)
+![Metrics](./Self-Adaptive-Scaling/Pictures/Metrics.png)
 
 
 
@@ -52,4 +52,4 @@ The system architecture is divided into three main components:
 - **Performance Testing**: Conducted using a Python script integrated with JMeter.
 - **Adaptation Efficiency**: Validated through real-time adaptation to workload changes, ensuring optimal performance and resource utilization.
 
-![Utility Function Values](/Users/zlc/Code/Self-Adaptive-Scaling/Pictures/Utility Function Values.png)
+![Utility Function Values](./Pictures/Utility Function Values.png)
