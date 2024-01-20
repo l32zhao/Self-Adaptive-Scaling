@@ -1,5 +1,5 @@
-# Intelligent Auto-Scaling - The Final Project of ECE 750 Self-Adaptive System
-
+# A Self-adaptive Auto-scaling System
+> The Final Project of ECE 750 Self-Adaptive System, by Lucian Zhao and Guanjie Wang
 ## Overview
 
 This project presents an intelligent auto-scaling system designed for microservices performance optimization on IBM Cloud. Utilizing the Monitoring-Analysis-Planning-Execution-Knowledge (MAPE-K) self-adaptation loop model, the system dynamically adjusts to fluctuating workloads, ensuring efficient resource utilization and system responsiveness.
