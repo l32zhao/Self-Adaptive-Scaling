@@ -43,7 +43,7 @@ The system architecture is divided into three main components:
 - **Resource Management**: Employs Docker containers for encapsulating services, orchestrated by OpenShift for real-time adaptations.
 - **Performance Monitoring**: Uses IBM Cloud monitoring tools, including Sysdig, for tracking performance metrics.
 
-![Metrics](./Self-Adaptive-Scaling/Pictures/Metrics.png)
+![Metrics](./Pictures/Metrics.png)
 
 
 
