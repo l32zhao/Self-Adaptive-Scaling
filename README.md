@@ -52,4 +52,4 @@ The system architecture is divided into three main components:
 - **Performance Testing**: Conducted using a Python script integrated with JMeter.
 - **Adaptation Efficiency**: Validated through real-time adaptation to workload changes, ensuring optimal performance and resource utilization.
 
-![Utility Function Values](./Pictures/Utility Function Values.png)
+![Utility Function Values](./Pictures/Utility_Function_Values.png)
