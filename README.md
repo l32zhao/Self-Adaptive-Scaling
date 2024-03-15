@@ -1,4 +1,4 @@
-# A Self-adaptive Auto-scaling System
+# A Self-adaptive Auto-scaling on OpenShift
 > The Final Project of ECE 750 Self-Adaptive System, by Lucian Zhao and Guanjie Wang
 ## Overview
 
