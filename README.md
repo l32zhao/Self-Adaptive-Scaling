@@ -10,9 +10,7 @@ This project presents an intelligent auto-scaling system designed for microservi
 
 - **MAPE-K Loop**: The system utilizes the MAPE-K model for continuous adaptation. It incorporates a model-switching algorithm within the analysis phase, allowing the system to select the most appropriate predictive model based on current conditions, such as workload intensity and performance requirements.
 
-- Three-Layer Architecture
-
-  : The system's architecture consists of:
+- Three-Layer Architecture: The system's architecture consists of:
 
   1. **Goal Management Layer**: Manages user and system requirements.
   2. **Change Management Layer**: Includes the MAPE-K loop and handles the dynamic model switching.
